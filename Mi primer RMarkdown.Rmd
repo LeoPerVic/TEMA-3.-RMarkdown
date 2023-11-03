@@ -1,0 +1,98 @@
+---
+title: "Mi primer RMarkdown"
+author: "Leonardo Pérez Victorino"
+date: "2023-02-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+```
+
+1.Niveles de encabezado
+
+# Encabezado nivel 1
+## Encabezado nivel 2
+### Encabezado nivel 3
+
+
+2. Énfasis de texto
+
+*Esto es texto en cursiva*  
+**Esto es texto en negrita**
+_Esto es texto subrayado_
+> Texto con un tabulado mayor al párrafo normal.
+
+Texto que está hablando de un tema y quiere poner una nota al pie [^1].
+
+[^1]: texto de la nota al pie
+
+
+3. Listas
+
+#Construcción de una lista numerada
+
+1. Elemento 1
+2. Elemento 2
+
+#Construcción de una lista sin números
+
+* Elemento 1
+* Elemento 2
+
+#Lista sin números, con sublista numerada (tabulado es de 4 espacios)
+
++ Elemento 1
++ Elemento 2
+    1. Sub elemento 1.
+    2. Sub elemento2.
+
+4. Insertar un vínculo
+
+[UAM](https://www.uam.mx/)
+
+5. Insertar una imagen
+
+![UAM](Uam_azc.jpg){width=270 height=150}
+6. Insertar una ecuación
+
+Una ecuación dentro de la línea: $y=mx+b$
+
+Una ecuación en línea independiente:  
+
+$$y=mx+b$$
+7. Opciones de interlineado
+
+<div style="text-align: center">  <div/> 
+<div style="text-align: justify">  <div/>
+<div style="text-align: left">  <div/> 
+<div style="text-align: right">  <div/> 
+
+
+8. Espaciado
+
+Se utiliza \
+
+
+Métodos:
+
+- Usar la tecla de barra invertida: En la mayoría de los teclados de Windows, la barra invertida se encuentra en la misma tecla que la barra vertical ("|"). Simplemente presiona la tecla de barra invertida directamente.
+
+-Usar la tecla Alt + códigos de caracteres: Puedes utilizar códigos de caracteres para insertar una barra invertida. Mantén presionada la tecla "Alt" y, mientras la mantienes presionada, ingresa el código de caracteres para la barra invertida, que es "92". Luego, suelta la tecla "Alt", y debería aparecer la barra invertida.
+
+-Usar el teclado en pantalla: Si tienes dificultades para ingresar la barra invertida con el teclado físico, puedes utilizar el teclado en pantalla de Windows. Para abrirlo, busca "Teclado en pantalla" en el menú Inicio. Luego, puedes hacer clic en la barra invertida desde el teclado en pantalla.
+
+-Atajo de teclado: En algunos programas y aplicaciones, como editores de texto y procesadores de texto, puedes usar el atajo de teclado "Ctrl + /" para insertar una barra invertida.
+
+9. Tablas
+
+Se utiliza "------" y "|" para dividir los espacios en las tablas-
+
+
+
+|Municipio   | variable 1 | variable 2 |
+|------------|------------|------------|
+|municipio 1 | valor 1.1  | valor 2.1. |
+|------------|------------|------------|
