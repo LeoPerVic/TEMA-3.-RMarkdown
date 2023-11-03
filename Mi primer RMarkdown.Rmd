@@ -22,8 +22,7 @@ knitr::opts_chunk$set(message = FALSE)
 
 *Esto es texto en cursiva*  
 **Esto es texto en negrita**
-_Esto es texto subrayado_
-> Texto con un tabulado mayor al párrafo normal.
+<span style="text-decoration: underline;">Este es texto subrayado.</span>
 
 Texto que está hablando de un tema y quiere poner una nota al pie [^1].
 
@@ -51,7 +50,7 @@ Texto que está hablando de un tema y quiere poner una nota al pie [^1].
 
 4. Insertar un vínculo
 
-[UAM](https://www.uam.mx/)
+[UAM AZCAPOTZALCO](https://www.uam.mx/)
 
 5. Insertar una imagen
 
@@ -95,3 +94,7 @@ Se utiliza "------" y "|" para dividir los espacios en las tablas-
 |Municipio   | variable 1 | variable 2 |
 |------------|------------|------------|
 |municipio 1 | valor 1.1  | valor 2.1. |
+
+
+Otra forma de poner tablas más grande es R es por medio de [Table Converter](https://tableconvert.com/es/excel-to-markdown)
+
