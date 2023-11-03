@@ -1,0 +1,46 @@
+Nombre público de la base:
+Base de la industria alimentaria en la ZMVM e índices de desarrollo
+
+Nombre administrativo de la base:
+
+SAIC_Exporta_2022328_19435832
+
+Resumen de su contenido:
+
+Diversas variables que explican el comportamiento del subsector 311 y indicadores de desarrollo. Observaciones: 912 unidades espaciales de 2003 a 2018. 
+
+Tres palabras clave que la identifiquen: industria alimentaria, municipios, ZMVM.
+
+Variables
+
+CVE_ENT	        Clave de entidad
+NOM_ENT	        Nombre de la entidad
+CVE_MUN	        Clave municipal
+NOM_MUN	        Nombre del municipio
+CVE_GEO	        Clave geográfica
+RMPO311_18	Remuneración media por persona ocupada de la industria alimentaria del año 2018
+VA311_18	Valor agregado censal bruto de la industria alimentaria del año 2018
+FBKF311_18	Formación bruta de capital fijo  de la industria alimentaria del año 2018
+UE311_18	Unidades económicas  de la industria alimentaria del año 2018
+PO311_18	Personal ocupado  de la industria alimentaria del año 2018
+PBT311_18	Producción bruta total  de la industria alimentaria del año 2018
+IM_2020	        Índice de Marginación del año 2020
+GM_2020	        Grado de Marginación del año 2020
+IRS_2020	Índice de Rezago Social del año 2020
+GRS_2020	Grado de Rezago Social del año 2020
+IDH_2020	Índice de Desarrollo Humano del año 2020
+GDH_2020	Grado de Desarrollo Humano del año 2020
+           
+
+Nombre del proyecto de investigación del Área en que se originó:
+Industria Alimentaria en la Zona Metropolitana del Valle de México|Área de Relaciones Productivas en México.
+
+Nombre del responsable del procesamiento y preparación de la base de datos:
+Leonardo Pérez Victorino
+
+Nombre y contacto del responsable de mantenimiento de la base de datos:
+Leonardo Pérez Victorino|lpv@azc.uam.mx
+
+Cita recomendada para el uso de la base de datos:
+Leonardo Pérez Victorino (2022). Subsector 311 en los municipios de la ZMVM. Elaborado con base en Censos económicos(2019), INEGI; 
+Informe de Desarrollo Humano Municipal (2020), PNUD; Medición de la pobreza (2020), CONEVAL; Índices de marginación (2020), CONAPO.
