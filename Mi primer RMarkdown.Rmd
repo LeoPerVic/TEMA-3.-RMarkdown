@@ -95,4 +95,3 @@ Se utiliza "------" y "|" para dividir los espacios en las tablas-
 |Municipio   | variable 1 | variable 2 |
 |------------|------------|------------|
 |municipio 1 | valor 1.1  | valor 2.1. |
-|------------|------------|------------|
